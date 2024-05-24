@@ -1,7 +1,7 @@
 apipkg==1.4
 appdirs==1.4.2
 attr==0.2.0
-attrs==16.3.0
+attrs==23.2.0
 eradicate==0.1.6
 execnet==1.4.1
 flake8==3.3.0
