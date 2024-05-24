@@ -24,7 +24,7 @@ class HppRequest(HashMixin, DictMixin):
 
     # Mandatory fields
     merchant_id = Field(validator=RequestValidator.merchant_id)
-    amount = Field(convert=str, validator=RequestValidator.amount)
+    amount = Field(converter=str, validator=RequestValidator.amount)
     currency = Field(validator=RequestValidator.currency)
     auto_settle_flag = Field(validator=RequestValidator.flag)
 
